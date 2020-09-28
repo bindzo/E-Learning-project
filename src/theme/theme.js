@@ -3,11 +3,11 @@ const theme = createMuiTheme({
   palette: {
     primary: {
       light: "#f7c7cf",
-      main: "#f38b9c",
-      dark: "#f3556f",
+      main: "#ffffff",
+      dark: "#6c737e",
     },
     secondary: {
-      main: "#00ff00",
+      main: "#ec5252",
     },
     backgound: {
       grey: {
@@ -16,35 +16,17 @@ const theme = createMuiTheme({
       red: {},
     },
     text: {
-      primary: "#d8c734",
+      primary: "#135364",
       secondary: "#000000",
+      red: "#ff0000",
     },
   },
   typography: {
-    h1: {
-      fontSize: "60",
-      fontWeight: "700",
-    },
-    h2: {
-      fontSize: "30",
-      fontWeight: "600",
-    },
-    h3: {},
-    h4: {},
-    h5: {},
-    h6: {
-      fontSize: "20",
-      fontWeight: "400",
-    },
     subtitle1: {
       fontSize: "16",
       fontWeight: "300",
     },
-    subtitle2: {},
-    body1: {},
-    body2: {},
   },
-  breakpoints: {},
   spacing: 10,
 });
 

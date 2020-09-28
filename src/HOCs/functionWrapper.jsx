@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const wrapper = (Component) => {
@@ -7,7 +8,7 @@ const wrapper = (Component) => {
       <div>
         <Header />
         <Component {...props} />
-        <footer>this is a footer</footer>
+        <Footer />
       </div>
     );
   };

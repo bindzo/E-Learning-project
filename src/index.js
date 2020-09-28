@@ -4,9 +4,10 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { Provider } from "react-redux";
-import store from "./redux/configStore";
-import { ThemeProvider } from "@material-ui/core";
+import store from "./redux/storeConfig";
 import theme from "./theme/theme";
+import { ThemeProvider } from "@material-ui/core";
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
