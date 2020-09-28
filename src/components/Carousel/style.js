@@ -3,12 +3,14 @@ import cover from './assets/img/cover.jpg'
 const style = (theme) =>
   createStyles({
     root:{
-        backgroundImage: {cover},
+        backgroundImage:  `url(${cover})`,
         height: 500,
         width: '100%',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        display: 'flex',
+        alignItems: 'center'
     }
   });
 

@@ -16,8 +16,8 @@ const theme = createMuiTheme({
       red: {},
     },
     text: {
-      primary: "#135364",
-      secondary: "#000000",
+      primary: "#000000",
+      secondary: "#ffffff",
       red: "#ff0000",
     },
   },
